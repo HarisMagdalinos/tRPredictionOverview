@@ -39,48 +39,11 @@
 /rgb { setrgbcolor } bind def
 /s   { scalefont setfont } bind def
 % end   .ps.prolog
-% begin encoding
-/WinAnsiEncoding [
- /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
- /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
- /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
- /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
- /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
- /parenleft /parenright /asterisk /plus /comma /minus /period /slash
- /zero /one /two /three /four /five /six /seven
- /eight /nine /colon /semicolon /less /equal /greater /question
- /at /A /B /C /D /E /F /G
- /H /I /J /K /L /M /N /O
- /P /Q /R /S /T /U /V /W
- /X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
- /grave /a /b /c /d /e /f /g
- /h /i /j /k /l /m /n /o
- /p /q /r /s /t /u /v /w
- /x /y /z /braceleft /bar /braceright /asciitilde /.notdef
- /Euro /.notdef /quotesinglbase /florin /quotedblbase /ellipsis /dagger /daggerdbl
- /circumflex /perthousand /Scaron /guilsinglleft /OE /.notdef /Zcaron /.notdef
- /.notdef /quoteleft /quoteright /quotedblleft /quotedblright /bullet /endash /emdash
- /tilde /trademark /scaron /guilsinglright /oe /.notdef /zcaron /Ydieresis
- /space /exclamdown /cent /sterling /currency /yen /brokenbar /section
- /dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron
- /degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered
- /cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequarters /questiondown
- /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
- /Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis
- /Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply
- /Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls
- /agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla
- /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
- /eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide
- /oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis
-]
- def
-% end encoding
 %%IncludeResource: font Times-Roman
 /Times-Roman findfont
 dup length dict begin
   {1 index /FID ne {def} {pop pop} ifelse} forall
-  /Encoding WinAnsiEncoding def
+  /Encoding ISOLatin1Encoding def
   currentdict
   end
 /Font1 exch definefont pop
@@ -88,7 +51,7 @@ dup length dict begin
 /Times-Bold findfont
 dup length dict begin
   {1 index /FID ne {def} {pop pop} ifelse} forall
-  /Encoding WinAnsiEncoding def
+  /Encoding ISOLatin1Encoding def
   currentdict
   end
 /Font2 exch definefont pop
@@ -96,7 +59,7 @@ dup length dict begin
 /Times-Italic findfont
 dup length dict begin
   {1 index /FID ne {def} {pop pop} ifelse} forall
-  /Encoding WinAnsiEncoding def
+  /Encoding ISOLatin1Encoding def
   currentdict
   end
 /Font3 exch definefont pop
@@ -104,7 +67,7 @@ dup length dict begin
 /Times-BoldItalic findfont
 dup length dict begin
   {1 index /FID ne {def} {pop pop} ifelse} forall
-  /Encoding WinAnsiEncoding def
+  /Encoding ISOLatin1Encoding def
   currentdict
   end
 /Font4 exch definefont pop
@@ -216,7 +179,7 @@ o
 59.04 73.44 401.76 372.96 cl
 0 0 0 1 setcmykcolor
 
-1.13 setlinewidth
+1.12 setlinewidth
 [] 0 setdash
 1 setlinecap
 1 setlinejoin
@@ -426,8 +389,8 @@ np
 o
 0 0 0 0.2549 setcmykcolor
 
-1.13 setlinewidth
-[ 3.38 5.63] 0 setdash
+1.12 setlinewidth
+[ 3.38 5.62] 0 setdash
 np
 71.73 84.53 m
 1.59 7.21 l
@@ -633,7 +596,7 @@ np
 o
 0 1 0 0 setcmykcolor
 
-1.13 setlinewidth
+1.12 setlinewidth
 [ 0.00 4.50] 0 setdash
 np
 71.73 84.53 m
@@ -840,7 +803,7 @@ np
 o
 1 0 1 0 setcmykcolor
 
-1.13 setlinewidth
+1.12 setlinewidth
 [ 0.00 4.50 3.38 4.50] 0 setdash
 np
 71.73 84.53 m
@@ -1047,7 +1010,7 @@ np
 o
 0 1 1 0 setcmykcolor
 
-1.13 setlinewidth
+1.12 setlinewidth
 [ 6.75 4.50] 0 setdash
 np
 71.73 84.53 m
@@ -1254,8 +1217,8 @@ np
 o
 1 1 0 0 setcmykcolor
 
-1.13 setlinewidth
-[ 1.13 3.38 5.63 3.38] 0 setdash
+1.12 setlinewidth
+[ 1.12 3.38 5.62 3.38] 0 setdash
 np
 71.73 84.53 m
 1.59 5.15 l
@@ -1461,7 +1424,7 @@ np
 o
 0 0.7455 0.7455 0.3529 setcmykcolor
 
-1.13 setlinewidth
+1.12 setlinewidth
 [] 0 setdash
 np
 71.73 84.53 m
@@ -1668,8 +1631,8 @@ np
 o
 0 0.3529 1 0 setcmykcolor
 
-1.13 setlinewidth
-[ 3.38 5.63] 0 setdash
+1.12 setlinewidth
+[ 3.38 5.62] 0 setdash
 np
 71.73 84.53 m
 1.59 7.21 l

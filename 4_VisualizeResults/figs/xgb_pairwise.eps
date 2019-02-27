@@ -39,48 +39,11 @@
 /rgb { setrgbcolor } bind def
 /s   { scalefont setfont } bind def
 % end   .ps.prolog
-% begin encoding
-/WinAnsiEncoding [
- /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
- /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
- /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
- /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
- /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
- /parenleft /parenright /asterisk /plus /comma /minus /period /slash
- /zero /one /two /three /four /five /six /seven
- /eight /nine /colon /semicolon /less /equal /greater /question
- /at /A /B /C /D /E /F /G
- /H /I /J /K /L /M /N /O
- /P /Q /R /S /T /U /V /W
- /X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
- /grave /a /b /c /d /e /f /g
- /h /i /j /k /l /m /n /o
- /p /q /r /s /t /u /v /w
- /x /y /z /braceleft /bar /braceright /asciitilde /.notdef
- /Euro /.notdef /quotesinglbase /florin /quotedblbase /ellipsis /dagger /daggerdbl
- /circumflex /perthousand /Scaron /guilsinglleft /OE /.notdef /Zcaron /.notdef
- /.notdef /quoteleft /quoteright /quotedblleft /quotedblright /bullet /endash /emdash
- /tilde /trademark /scaron /guilsinglright /oe /.notdef /zcaron /Ydieresis
- /space /exclamdown /cent /sterling /currency /yen /brokenbar /section
- /dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron
- /degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered
- /cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequarters /questiondown
- /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
- /Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis
- /Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply
- /Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls
- /agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla
- /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
- /eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide
- /oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis
-]
- def
-% end encoding
 %%IncludeResource: font Times-Roman
 /Times-Roman findfont
 dup length dict begin
   {1 index /FID ne {def} {pop pop} ifelse} forall
-  /Encoding WinAnsiEncoding def
+  /Encoding ISOLatin1Encoding def
   currentdict
   end
 /Font1 exch definefont pop
@@ -88,7 +51,7 @@ dup length dict begin
 /Times-Bold findfont
 dup length dict begin
   {1 index /FID ne {def} {pop pop} ifelse} forall
-  /Encoding WinAnsiEncoding def
+  /Encoding ISOLatin1Encoding def
   currentdict
   end
 /Font2 exch definefont pop
@@ -96,7 +59,7 @@ dup length dict begin
 /Times-Italic findfont
 dup length dict begin
   {1 index /FID ne {def} {pop pop} ifelse} forall
-  /Encoding WinAnsiEncoding def
+  /Encoding ISOLatin1Encoding def
   currentdict
   end
 /Font3 exch definefont pop
@@ -104,7 +67,7 @@ dup length dict begin
 /Times-BoldItalic findfont
 dup length dict begin
   {1 index /FID ne {def} {pop pop} ifelse} forall
-  /Encoding WinAnsiEncoding def
+  /Encoding ISOLatin1Encoding def
   currentdict
   end
 /Font4 exch definefont pop
@@ -285,7 +248,6 @@ o
 38.97 799.45 (8) 1 0 t
 38.97 822.39 (10) 1 0 t
 288.00 576.00 576.00 864.00 cl
-288.00 576.00 576.00 864.00 cl
 /bg { 0 0 0 0.2549 setcmykcolor
  } def
 0 0 0 1 setcmykcolor
@@ -451,7 +413,6 @@ o
 298.45 776.51 (6) 1 0 t
 298.45 799.45 (8) 1 0 t
 298.45 822.39 (10) 1 0 t
-0.00 288.00 288.00 576.00 cl
 0.00 288.00 288.00 576.00 cl
 /bg { 0 0 0 0.2549 setcmykcolor
  } def
@@ -619,7 +580,6 @@ o
 38.97 511.45 (8) 1 0 t
 38.97 534.39 (10) 1 0 t
 288.00 288.00 576.00 576.00 cl
-288.00 288.00 576.00 576.00 cl
 /bg { 0 0 0 0.2549 setcmykcolor
  } def
 0 0 0 1 setcmykcolor
@@ -786,7 +746,6 @@ o
 298.45 511.45 (8) 1 0 t
 298.45 534.39 (10) 1 0 t
 0.00 0.00 288.00 288.00 cl
-0.00 0.00 288.00 288.00 cl
 /bg { 0 0 0 0.2549 setcmykcolor
  } def
 0 0 0 1 setcmykcolor
@@ -952,7 +911,6 @@ o
 38.97 200.51 (6) 1 0 t
 38.97 223.45 (8) 1 0 t
 38.97 246.39 (10) 1 0 t
-288.00 0.00 576.00 288.00 cl
 288.00 0.00 576.00 288.00 cl
 /bg { 0 0 0 0.2549 setcmykcolor
  } def

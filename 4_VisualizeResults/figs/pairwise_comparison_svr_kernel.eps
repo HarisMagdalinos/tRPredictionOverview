@@ -1,0 +1,540 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%DocumentNeededResources: font Times-Roman
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%+ font Times-BoldItalic
+%%+ font Symbol
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%BoundingBox: 0 0 1008 302
+%%EndComments
+%%BeginProlog
+/bp  { gs gs } def
+% begin .ps.prolog
+/gs  { gsave } bind def
+/gr  { grestore } bind def
+/ep  { showpage gr gr } bind def
+/m   { moveto } bind def
+/l  { rlineto } bind def
+/np  { newpath } bind def
+/cp  { closepath } bind def
+/f   { fill } bind def
+/o   { stroke } bind def
+/c   { newpath 0 360 arc } bind def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } bind def
+/p1  { stroke } bind def
+/p2  { gsave bg fill grestore newpath } bind def
+/p3  { gsave bg fill grestore stroke } bind def
+/p6  { gsave bg eofill grestore newpath } bind def
+/p7  { gsave bg eofill grestore stroke } bind def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } bind def
+/ta  { 4 -2 roll moveto gsave rotate show } bind def
+/tb  { 2 -1 roll 0 rmoveto show } bind def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } bind def
+/rgb { setrgbcolor } bind def
+/s   { scalefont setfont } bind def
+% end   .ps.prolog
+%%IncludeResource: font Times-Roman
+/Times-Roman findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Times-Bold
+/Times-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Times-Italic
+/Times-Italic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Times-BoldItalic
+/Times-BoldItalic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+0.00 0.00 336.00 302.40 cl
+/bg { 0 0 0 0.2549 setcmykcolor
+ } def
+0 0 0 1 setcmykcolor
+
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+58.38 170.21 5.76 -19.62 r p3
+65.29 170.21 5.76 -14.54 r p3
+72.21 170.21 5.76 -13.08 r p3
+79.12 170.21 5.76 -7.59 r p3
+86.04 170.21 5.76 -6.25 r p3
+92.95 170.21 5.76 -6.14 r p3
+99.86 170.21 5.76 -5.61 r p3
+106.78 170.21 5.76 -5.23 r p3
+113.69 170.21 5.76 -2.79 r p3
+120.61 170.21 5.76 -2.29 r p3
+127.52 170.21 5.76 -2.22 r p3
+134.43 170.21 5.76 -0.77 r p3
+141.35 170.21 5.76 -0.70 r p3
+148.26 170.21 5.76 -0.50 r p3
+155.18 170.21 5.76 -0.48 r p3
+162.09 170.21 5.76 -0.30 r p3
+169.00 170.21 5.76 0.16 r p3
+175.92 170.21 5.76 0.54 r p3
+182.83 170.21 5.76 0.84 r p3
+189.75 170.21 5.76 1.01 r p3
+196.66 170.21 5.76 1.42 r p3
+203.57 170.21 5.76 1.67 r p3
+210.49 170.21 5.76 2.03 r p3
+217.40 170.21 5.76 2.13 r p3
+224.32 170.21 5.76 2.45 r p3
+231.23 170.21 5.76 3.13 r p3
+238.14 170.21 5.76 3.16 r p3
+245.06 170.21 5.76 6.77 r p3
+251.97 170.21 5.76 7.17 r p3
+258.89 170.21 5.76 7.77 r p3
+265.80 170.21 5.76 10.11 r p3
+272.71 170.21 5.76 11.38 r p3
+279.63 170.21 5.76 13.45 r p3
+286.54 170.21 5.76 19.18 r p3
+293.46 170.21 5.76 20.06 r p3
+300.37 170.21 5.76 33.93 r p3
+0.00 0.00 1008.00 302.40 cl
+/Font1 findfont 6 s
+0 0 0 1 setcmykcolor
+
+63.25 52.15 (T) 90 ta
+-0.480 (ohge) tb gr
+70.16 67.48 (MTBLS38) 1 90 t
+77.08 67.48 (MTBLS20) 1 90 t
+83.99 43.48 (Stra) 90 ta
+-0.120 (vs_22) tb gr
+90.90 67.48 (PFR-TK72) 1 90 t
+97.82 67.48 (Cao_HILIC) 1 90 t
+104.73 16.81 (UniT) 90 ta
+-0.480 (o) tb
+-0.060 (yama_Atlantis) tb gr
+111.65 67.48 (Nikiforos) 1 90 t
+118.56 67.48 (FEM_lipids) 1 90 t
+125.47 67.48 (FEM_long) 1 90 t
+132.39 41.82 (LIFE_ne) 90 ta
+-0.150 (w) tb gr
+139.30 67.48 (Ales_18) 1 90 t
+146.22 67.48 (Matsuura) 1 90 t
+153.13 47.82 (T) 90 ta
+-0.480 (aguchi) tb gr
+160.04 67.48 (FEM_orbitrap_plasma) 1 90 t
+166.96 67.48 (IPB_Halle) 1 90 t
+173.87 67.48 (FEM_orbitrap_urine) 1 90 t
+180.79 67.48 (LIFE_old) 1 90 t
+187.70 67.48 (RIKEN) 1 90 t
+194.61 67.48 (Beck) 1 90 t
+201.53 40.82 (k) 90 ta
+-0.060 (ohlbacher) tb gr
+208.44 40.47 (T) 90 ta
+-0.480 (oshimitsu) tb gr
+215.35 42.82 (T) 90 ta
+-0.480 (akahashi) tb gr
+222.27 67.48 (Krauss) 1 90 t
+229.18 17.49 (Eaw) 90 ta
+-0.060 (ag_XBridgeC18) tb gr
+236.10 67.48 (Matsuura_15) 1 90 t
+243.01 67.48 (Krauss_21) 1 90 t
+249.92 67.48 (MTBLS87) 1 90 t
+256.84 67.48 (Otto) 1 90 t
+263.75 52.48 (Stra) 90 ta
+-0.120 (vs) tb gr
+270.67 67.48 (Mark) 1 90 t
+277.58 22.15 (UFZ_Phenomene) 90 ta
+-0.090 (x) tb gr
+284.49 67.48 (FEM_short) 1 90 t
+291.41 67.48 (MTBLS36) 1 90 t
+298.32 38.82 (T) 90 ta
+-0.480 (aguchi_12) tb gr
+305.24 67.48 (MPI_Symmetry) 1 90 t
+0.00 0.00 336.00 302.40 cl
+/Font2 findfont 10 s
+0 0 0 1 setcmykcolor
+
+182.26 285.24 (SVR-L  -  SVR ) .5 0 t
+123.25 273.83 ( A) 0 ta
+-1.000 (v) tb
+-0.100 (erage incr) tb
+-0.180 (ease \(%\): 0.18) tb gr
+/Font1 findfont 8 s
+8.55 118.56 (Dif) 90 ta
+-0.200 (ference median error relativ) tb
+-0.120 (e) tb gr
+18.06 170.21 ( to the total elution time \(%\)) .5 90 t
+0.00 0.00 1008.00 302.40 cl
+0 0 0 1 setcmykcolor
+
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+48.47 76.98 m
+0 186.45 l
+o
+np
+48.47 76.98 m
+-4.75 0 l
+o
+np
+48.47 123.60 m
+-4.75 0 l
+o
+np
+48.47 170.21 m
+-4.75 0 l
+o
+np
+48.47 216.82 m
+-4.75 0 l
+o
+np
+48.47 263.43 m
+-4.75 0 l
+o
+/Font1 findfont 8 s
+38.97 74.33 (-10) 1 0 t
+38.97 120.95 (-5) 1 0 t
+38.97 167.56 (0) 1 0 t
+38.97 214.17 (5) 1 0 t
+38.97 260.79 (10) 1 0 t
+336.00 0.00 672.00 302.40 cl
+/bg { 0 0 0 0.2549 setcmykcolor
+ } def
+0 0 0 1 setcmykcolor
+
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+394.38 170.21 5.76 -17.17 r p3
+401.29 170.21 5.76 -10.04 r p3
+408.21 170.21 5.76 -9.62 r p3
+415.12 170.21 5.76 -8.71 r p3
+422.04 170.21 5.76 -4.33 r p3
+428.95 170.21 5.76 -3.03 r p3
+435.86 170.21 5.76 -2.99 r p3
+442.78 170.21 5.76 -2.96 r p3
+449.69 170.21 5.76 -2.72 r p3
+456.61 170.21 5.76 -1.76 r p3
+463.52 170.21 5.76 -1.52 r p3
+470.43 170.21 5.76 -1.25 r p3
+477.35 170.21 5.76 -0.29 r p3
+484.26 170.21 5.76 0.14 r p3
+491.18 170.21 5.76 0.58 r p3
+498.09 170.21 5.76 1.29 r p3
+505.00 170.21 5.76 1.30 r p3
+511.92 170.21 5.76 2.10 r p3
+518.83 170.21 5.76 2.28 r p3
+525.75 170.21 5.76 2.30 r p3
+532.66 170.21 5.76 2.91 r p3
+539.57 170.21 5.76 4.58 r p3
+546.49 170.21 5.76 5.72 r p3
+553.40 170.21 5.76 5.92 r p3
+560.32 170.21 5.76 9.18 r p3
+567.23 170.21 5.76 9.19 r p3
+574.14 170.21 5.76 13.15 r p3
+581.06 170.21 5.76 13.49 r p3
+587.97 170.21 5.76 14.95 r p3
+594.89 170.21 5.76 17.56 r p3
+601.80 170.21 5.76 19.06 r p3
+608.71 170.21 5.76 21.84 r p3
+615.63 170.21 5.76 27.75 r p3
+622.54 170.21 5.76 30.73 r p3
+629.46 170.21 5.76 36.65 r p3
+636.37 170.21 5.76 51.46 r p3
+0.00 0.00 1008.00 302.40 cl
+/Font1 findfont 6 s
+0 0 0 1 setcmykcolor
+
+399.25 52.15 (T) 90 ta
+-0.480 (ohge) tb gr
+406.16 67.48 (Matsuura_15) 1 90 t
+413.08 67.48 (FEM_long) 1 90 t
+419.99 38.82 (T) 90 ta
+-0.480 (aguchi_12) tb gr
+426.90 67.48 (Cao_HILIC) 1 90 t
+433.82 67.48 (MTBLS20) 1 90 t
+440.73 22.15 (UFZ_Phenomene) 90 ta
+-0.090 (x) tb gr
+447.65 16.81 (UniT) 90 ta
+-0.480 (o) tb
+-0.060 (yama_Atlantis) tb gr
+454.56 67.48 (Krauss_21) 1 90 t
+461.47 67.48 (MTBLS87) 1 90 t
+468.39 67.48 (PFR-TK72) 1 90 t
+475.30 67.48 (Krauss) 1 90 t
+482.22 42.82 (T) 90 ta
+-0.480 (akahashi) tb gr
+489.13 67.48 (Matsuura) 1 90 t
+496.04 67.48 (Nikiforos) 1 90 t
+502.96 67.48 (LIFE_old) 1 90 t
+509.87 52.48 (Stra) 90 ta
+-0.120 (vs) tb gr
+516.79 40.47 (T) 90 ta
+-0.480 (oshimitsu) tb gr
+523.70 67.48 (RIKEN) 1 90 t
+530.61 17.49 (Eaw) 90 ta
+-0.060 (ag_XBridgeC18) tb gr
+537.53 67.48 (Beck) 1 90 t
+544.44 67.48 (Ales_18) 1 90 t
+551.35 67.48 (FEM_orbitrap_plasma) 1 90 t
+558.27 40.82 (k) 90 ta
+-0.060 (ohlbacher) tb gr
+565.18 41.82 (LIFE_ne) 90 ta
+-0.150 (w) tb gr
+572.10 67.48 (MTBLS36) 1 90 t
+579.01 67.48 (FEM_lipids) 1 90 t
+585.92 67.48 (IPB_Halle) 1 90 t
+592.84 43.48 (Stra) 90 ta
+-0.120 (vs_22) tb gr
+599.75 67.48 (MPI_Symmetry) 1 90 t
+606.67 67.48 (MTBLS38) 1 90 t
+613.58 67.48 (FEM_orbitrap_urine) 1 90 t
+620.49 67.48 (Mark) 1 90 t
+627.41 47.82 (T) 90 ta
+-0.480 (aguchi) tb gr
+634.32 67.48 (FEM_short) 1 90 t
+641.24 67.48 (Otto) 1 90 t
+336.00 0.00 672.00 302.40 cl
+/Font2 findfont 10 s
+0 0 0 1 setcmykcolor
+
+518.26 285.24 (SVR-RBF  -  SVR ) .5 0 t
+456.75 273.83 ( A) 0 ta
+-1.000 (v) tb
+-0.100 (erage incr) tb
+-0.180 (ease \(%\): 0.679) tb gr
+/Font1 findfont 8 s
+344.55 118.56 (Dif) 90 ta
+-0.200 (ference median error relativ) tb
+-0.120 (e) tb gr
+354.06 170.21 ( to the total elution time \(%\)) .5 90 t
+0.00 0.00 1008.00 302.40 cl
+0 0 0 1 setcmykcolor
+
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+384.47 76.98 m
+0 186.45 l
+o
+np
+384.47 76.98 m
+-4.75 0 l
+o
+np
+384.47 123.60 m
+-4.75 0 l
+o
+np
+384.47 170.21 m
+-4.75 0 l
+o
+np
+384.47 216.82 m
+-4.75 0 l
+o
+np
+384.47 263.43 m
+-4.75 0 l
+o
+/Font1 findfont 8 s
+374.97 74.33 (-10) 1 0 t
+374.97 120.95 (-5) 1 0 t
+374.97 167.56 (0) 1 0 t
+374.97 214.17 (5) 1 0 t
+374.97 260.79 (10) 1 0 t
+672.00 0.00 1008.00 302.40 cl
+/bg { 0 0 0 0.2549 setcmykcolor
+ } def
+0 0 0 1 setcmykcolor
+
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+730.38 170.21 5.76 -30.10 r p3
+737.29 170.21 5.76 -16.37 r p3
+744.21 170.21 5.76 -13.07 r p3
+751.12 170.21 5.76 -10.17 r p3
+758.04 170.21 5.76 -9.99 r p3
+764.95 170.21 5.76 -6.47 r p3
+771.86 170.21 5.76 -6.00 r p3
+778.78 170.21 5.76 -4.68 r p3
+785.69 170.21 5.76 -4.09 r p3
+792.61 170.21 5.76 -3.70 r p3
+799.52 170.21 5.76 -3.10 r p3
+806.43 170.21 5.76 -2.32 r p3
+813.35 170.21 5.76 -1.71 r p3
+820.26 170.21 5.76 -0.85 r p3
+827.18 170.21 5.76 0.07 r p3
+834.09 170.21 5.76 0.28 r p3
+841.00 170.21 5.76 0.62 r p3
+847.92 170.21 5.76 1.26 r p3
+854.83 170.21 5.76 2.79 r p3
+861.75 170.21 5.76 3.48 r p3
+868.66 170.21 5.76 3.89 r p3
+875.57 170.21 5.76 4.04 r p3
+882.49 170.21 5.76 4.92 r p3
+889.40 170.21 5.76 5.13 r p3
+896.32 170.21 5.76 6.83 r p3
+903.23 170.21 5.76 8.01 r p3
+910.14 170.21 5.76 9.48 r p3
+917.06 170.21 5.76 13.92 r p3
+923.97 170.21 5.76 16.94 r p3
+930.89 170.21 5.76 19.35 r p3
+937.80 170.21 5.76 19.62 r p3
+944.71 170.21 5.76 21.68 r p3
+951.63 170.21 5.76 22.54 r p3
+958.54 170.21 5.76 23.20 r p3
+965.46 170.21 5.76 44.70 r p3
+972.37 170.21 5.76 47.38 r p3
+0.00 0.00 1008.00 302.40 cl
+/Font1 findfont 6 s
+0 0 0 1 setcmykcolor
+
+735.25 38.82 (T) 90 ta
+-0.480 (aguchi_12) tb gr
+742.16 22.15 (UFZ_Phenomene) 90 ta
+-0.090 (x) tb gr
+749.08 67.48 (MPI_Symmetry) 1 90 t
+755.99 67.48 (Matsuura_15) 1 90 t
+762.90 67.48 (FEM_long) 1 90 t
+769.82 67.48 (MTBLS36) 1 90 t
+776.73 52.48 (Stra) 90 ta
+-0.120 (vs) tb gr
+783.65 67.48 (Krauss_21) 1 90 t
+790.56 67.48 (MTBLS87) 1 90 t
+797.47 52.15 (T) 90 ta
+-0.480 (ohge) tb gr
+804.39 67.48 (Krauss) 1 90 t
+811.30 67.48 (Cao_HILIC) 1 90 t
+818.22 42.82 (T) 90 ta
+-0.480 (akahashi) tb gr
+825.13 17.49 (Eaw) 90 ta
+-0.060 (ag_XBridgeC18) tb gr
+832.04 16.81 (UniT) 90 ta
+-0.480 (o) tb
+-0.060 (yama_Atlantis) tb gr
+838.96 40.47 (T) 90 ta
+-0.480 (oshimitsu) tb gr
+845.87 67.48 (LIFE_old) 1 90 t
+852.79 67.48 (Matsuura) 1 90 t
+859.70 67.48 (Beck) 1 90 t
+866.61 67.48 (RIKEN) 1 90 t
+873.53 40.82 (k) 90 ta
+-0.060 (ohlbacher) tb gr
+880.44 67.48 (MTBLS20) 1 90 t
+887.35 67.48 (PFR-TK72) 1 90 t
+894.27 67.48 (FEM_orbitrap_plasma) 1 90 t
+901.18 67.48 (Ales_18) 1 90 t
+908.10 67.48 (Nikiforos) 1 90 t
+915.01 41.82 (LIFE_ne) 90 ta
+-0.150 (w) tb gr
+921.92 67.48 (IPB_Halle) 1 90 t
+928.84 67.48 (FEM_lipids) 1 90 t
+935.75 67.48 (Mark) 1 90 t
+942.67 43.48 (Stra) 90 ta
+-0.120 (vs_22) tb gr
+949.58 67.48 (FEM_orbitrap_urine) 1 90 t
+956.49 67.48 (FEM_short) 1 90 t
+963.41 67.48 (MTBLS38) 1 90 t
+970.32 47.82 (T) 90 ta
+-0.480 (aguchi) tb gr
+977.24 67.48 (Otto) 1 90 t
+672.00 0.00 1008.00 302.40 cl
+/Font2 findfont 10 s
+0 0 0 1 setcmykcolor
+
+854.26 285.24 (SVR-RBF  -  SVR-L ) .5 0 t
+792.75 273.83 ( A) 0 ta
+-1.000 (v) tb
+-0.100 (erage incr) tb
+-0.180 (ease \(%\): 0.499) tb gr
+/Font1 findfont 8 s
+680.55 118.56 (Dif) 90 ta
+-0.200 (ference median error relativ) tb
+-0.120 (e) tb gr
+690.06 170.21 ( to the total elution time \(%\)) .5 90 t
+0.00 0.00 1008.00 302.40 cl
+0 0 0 1 setcmykcolor
+
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+720.47 76.98 m
+0 186.45 l
+o
+np
+720.47 76.98 m
+-4.75 0 l
+o
+np
+720.47 123.60 m
+-4.75 0 l
+o
+np
+720.47 170.21 m
+-4.75 0 l
+o
+np
+720.47 216.82 m
+-4.75 0 l
+o
+np
+720.47 263.43 m
+-4.75 0 l
+o
+/Font1 findfont 8 s
+710.97 74.33 (-10) 1 0 t
+710.97 120.95 (-5) 1 0 t
+710.97 167.56 (0) 1 0 t
+710.97 214.17 (5) 1 0 t
+710.97 260.79 (10) 1 0 t
+ep
+%%Trailer
+%%Pages: 1
+%%EOF
